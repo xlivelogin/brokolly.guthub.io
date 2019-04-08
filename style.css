@@ -1,0 +1,48 @@
+
+
+
+body {   
+/* Местоположение фоновой картинки */   background-image: url(https://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/black-wallpapers.png);      
+/* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
+/* Фон не повторяется */   background-repeat: no-repeat;      
+/* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   background-attachment: fixed;      
+/* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+/* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646; }
+
+
+h3{
+	width: 200px;
+  height: 100px; /* если высота не будет задана явна, она будет равна 100% */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+  margin: auto;
+	
+	
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff0000, 0 0 80px #ff0000, 0 0 90px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
+}
+
+.btn-success{
+	background-color: #000000;
+	color:white;
+	border-color:red; 
+}
+
+.btn-success:hover{
+	background-color: red;
+	border-color:red;
+}
+div{
+	position: absolute;
+	top:60%;
+	left: 35%;
+	margin: auto;
+	height: 40px;
+
+  
+	
+}
